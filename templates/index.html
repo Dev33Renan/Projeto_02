@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/sytles.css">
+    
+    
+
+    <title>Portifolio</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+           <li> <a href="../templates/sobre.html">Sobre mim</a> </li>
+           <li> <a href="../templates/projetos.html">Projetos</a> </li>
+        </ul>
+    </nav>
+     
+ 
+
+    <div class="conteudo1">
+        <div class="foto">
+            <img src="../static/css/img/renan.jpg" width="100" alt="Fotorenan">
+        </div>
+        <h1>Olá meu Nome é Renan Batista</h1>
+          <p>"Em nossas vidas crescemos cheios de desafios e com eles vem o crescimento e o apredizado"</p>
+            <p>Sou Desenvolvedor Full Stack Jr | HTML5 | CSS3 | Python | Flask na "BlueEdTech"</p>
+        
+        
+    </div>
+    
+    <section id="habilidades">
+        <h2>Conhecimentos em Linguagens</h2>
+
+        <p>HTML 5</p>
+        <div>
+         <span id="html5">40%</span>
+        </div>
+
+        <p>CSS 3</p>
+        <div>
+         <span id="css3">40%</span>
+         </div>
+
+        <p>JavaScript</p>
+        <div>
+         <span id="js">30%</span>
+        </div>
+
+        <p>Python</p>
+        <div>
+         <span id="python">50%</span>
+        </div>
+
+        <p>Flask</p>
+        <div>
+         <span id="flask">20%</span>
+        </div>
+    </section>
+
+    <section class="contato">
+        <div>
+            <h3>Envie uma mensagem</h3>
+            <form class="form" action="/send" method="POST">
+                <label for="nome">Nome:</label>
+                <input class="field" type="text" name="nome" id="nome" placeholder="Digite o seu nome"> 
+                <label for="email">Endereço de e-mail:</label>
+                <input class="field" type="text" name="email" id="email" placeholder="Digite o seu e-mail"> 
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="text" name="mensagem" cols="30" rows="10" id="mensagem" placeholder="Digite a sua mensagem"></textarea> 
+                <button class="field" type="submit" id="enviar">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="botao">
+        <a href="https://github.com/Dev33Renan">GitHub</a>
+        <a href="https://www.linkedin.com/in/renan-batista-742304190/">Linkedln</a>
+        </div>
+    </section> -->
+
+
+
+
+
+
+   <script src="../js/script.js"></script>
+</body>    
+</html>
