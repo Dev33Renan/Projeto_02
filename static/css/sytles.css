@@ -1,0 +1,207 @@
+ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+html {
+    scroll-behavior: smooth;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+nav ul li {
+    padding: 1rem;
+}
+  
+nav {
+    background-color:hsl(106, 47%, 53%);
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+  
+nav ul li a:hover {
+    color: #71aaff;
+}
+
+.complemento{
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 50px;
+   
+}
+.projetos{
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+
+}
+
+.front{
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+
+}
+
+img {
+    width: 15%;
+    border-radius: 50%;
+    display:block ;
+    margin: auto;
+    
+}
+.sobre{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 40px;
+}
+.foto{
+    display:block;
+    margin: auto;
+    border-radius: 50%;
+    height: auto;    
+    width: 65%;
+    
+    
+}
+.conteudo1 {
+    padding: 4rem;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    background-blend-mode: color-dodge;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #f2f2f2;
+    color: #000;
+}
+.contato {
+display: flex;
+justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.field {
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+textarea {
+    height: 150px;
+
+}
+
+.botao {
+    border-radius: 50%;
+    justify-content: center;
+    
+}
+
+section#habilidades {
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: #dfdfdf;  
+  }
+  
+  section#habilidades h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  section#habilidades p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  section#habilidades div {
+    display: flex;
+    border: 1px solid hsl(106, 47%, 53%);
+    border-radius: 1rem;
+  }
+  
+  section#habilidades span#html5 {
+    background-color: hsl(106, 47%, 53%);
+    width: 90%;
+    color: #fff;
+    padding: 0.3rem;
+    text-align: end;
+    border-radius: 0.9rem;
+  }
+  
+  section#habilidades span#css3 {
+    background-color: hsl(106, 47%, 53%);
+    width: 95%;
+    color: #fff;
+    padding: 0.3rem;
+    text-align: end;
+    border-radius: 0.9rem;
+  }
+  
+  section#habilidades span#js {
+    background-color: hsl(106, 47%, 53%);
+    width: 80%;
+    color: #fff;
+    padding: 0.3rem;
+    text-align: end;
+    border-radius: 0.9rem;
+  }
+  
+  section#habilidades span#python {
+    background-color: hsl(106, 47%, 53%);
+    width: 80%;
+    color: #fff;
+    padding: 0.3rem;
+    text-align: end;
+    border-radius: 0.9rem;
+  }
+  
+  section#habilidades span#flask {
+    background-color: hsl(106, 47%, 53%);
+    width: 75%;
+    color: #fff;
+    padding: 0.3rem;
+    text-align: end;
+    border-radius: 0.9rem;
+  }
+  
+
+  
+  
